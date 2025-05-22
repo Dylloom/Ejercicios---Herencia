@@ -35,7 +35,6 @@ class Gato(Animal):
         super().imprimir_detalles()
         print(f"Color: {self.color}")
 
-# Ejemplo de uso:
 if __name__ == "__main__":
     p = Perro("Zeus", 3, "Border Collie")
     g = Gato("Máximo Décimo Meridio", 1, "Naranja")
