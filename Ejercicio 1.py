@@ -45,7 +45,6 @@ class Rectangulo(Figura):
         print(f"Área: {self.area():.2f}")
         print(f"Perímetro: {self.perimetro():.2f}")
 
-# Ejemplo de uso:
 if __name__ == "__main__":
     c = Circulo("Rojo", 5)
     r = Rectangulo("Azul", 4, 6)
