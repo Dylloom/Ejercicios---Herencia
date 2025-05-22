@@ -49,7 +49,6 @@ class EmpleadoTemporal(Empleado):
         super().imprimir_detalles()
         print(f"Trabajos Terminados: {self.terminado}")
 
-# Ejemplo de uso:
 if __name__ == "__main__":
     g = Gerente("Gabriel", 3000000, 9)
     e = EmpleadoTemporal("Juan", 1000000, 1000)
