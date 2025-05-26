@@ -23,8 +23,8 @@ class ProductoAlimenticio(Producto):
             return self.precio - (self.precio * 0.1)
 
 class ProductoElectronico(Producto):
-    def __init__(self, marca, modelo, anio):
-        super().__init__(marca, modelo, anio)
+    def __init__(self, nombre, precio, fecha):
+        super().__init__(nombre, precio, fecha)
     
     def descuento(self):
         fecha_actual = datetime.now()
